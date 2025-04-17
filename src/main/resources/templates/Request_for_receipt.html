@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>Заявка на получение ТМЦ</title>
+</head>
+<body>
+    <h2 style="text-align: center">Заявка на получение ТМЦ</h2>
+    <form>
+        <label for="tmvs">Выберите предмет:</label>
+        <select name="tmvs" id="tmvs">
+            <option value="">--Выберите значение--</option>
+            <option value="pen">Ручка</option>
+            <option value="pencil">Карандаш</option>
+            <option value="ruler">Линейка</option>
+            <option value="eraser">Ластик</option>
+            <option value="stapler">Степлер</option>
+            <option value="duct_tape">Скотч</option>
+            <option value="USB_flash_drive">Флешка</option>
+        </select>
+        <label for="quantity">Напишите количество:</label>
+        <input type="text" REQUIRED id="quantity" name="quantity" placeholder="Количество"><br>
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
